@@ -47,8 +47,8 @@ Go to `C/C++ Build > Settings > Tool Settings > MinGW C++ Linker > Libraries`.
 Under `Library search path (-L)` add the path to the lib folder of the SFML
 library by clicking on the green plus-icon.
 
-Under `Libraries (-l)` add the following: `sfml-graphics` `sfml-window`
-`sfml-system`. Click _Apply_ and _OK_ to save the changes.
+Under `Libraries (-l)` add the following: `sfml-graphics-s` `sfml-window-s`
+`sfml-system-s`. Click _Apply_ and _OK_ to save the changes.
 ![Adding the library-path.](lib.png)
 
 ## Step 4: Creating a "Hello World" file
